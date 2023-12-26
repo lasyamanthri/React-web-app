@@ -71,7 +71,7 @@ const location = 'Boston, USA'; // Replace with your location
 <b>Let's connect on LinkedIn for further insights and collaborations </b>
 </Typography>
 
-<Link href={linkedInProfile} target="_blank" rel="noopener">
+<Link href={linkedInProfile} target="_blank" rel="noreferrer">
 <IconButton>
 <LinkedInIcon />
 </IconButton> {"My Linkedin"}

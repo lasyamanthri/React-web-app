@@ -66,8 +66,11 @@ const location = 'Boston, USA'; // Replace with your location
 </Grid>
 </Grid>
 
-<Typography variant="body1" sx={{ fontWeight: 'light', fontStyle: '', marginBottom: '20px' }} justifyContent="center" >
-<j>I am a Data Scientist based in Boston. With a Master's Degree in DataScience, focused on AI/ML from Northeastern University, Boston, I bring 1.5 year of expertise in ML, Python, SQL and Supply Chain. My passion lies in developing state-of-the-art AI applications in Natural Language Processing (NLP). My expertise extends to solving complex software engineering challenges, collaborating seamlessly with diverse teams, and constructing efficient and scalable applications. With experience spanning fast-paced startups and prominent Big Tech corporations, I have gained a deep understanding of the industry's demands. </j>
+<Typography variant="body1" align="justify" sx={{ marginBottom: '20px', lineHeight: '1.6' }} fontStyle='normal'>
+<j>Hello, I'm Faiz Khwaja, a dedicated Data Scientist with a Master's in Data Science from Northeastern University, Boston. Proficient in Python and SQL, my passion revolves around Machine Learning and Artificial Intelligence. Leveraging my background in Mechanical Engineering, I've also cultivated expertise in Supply Chain dynamics.
+
+Feel free to explore my projects, and should any pique your interest, I welcome you to reach out. I'm eager to connect with like-minded individuals and foster meaningful collaborations within our shared passion for data-driven innovation.</j>
+&nbsp;
 <b>Let's connect on LinkedIn for further insights and collaborations </b>
 </Typography>
 

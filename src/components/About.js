@@ -65,7 +65,7 @@ const About = () => {
     <div>
 <Container id="about" sx={{ paddingTop: '80px', paddingBottom: '80px' }}>
 
-<Grid container spacing={3} alignItems="center">
+<Grid container spacing={3} alignItems="center" xs='auto'>
 <Grid item xs={12} md={6}>
 <div style={{ position: 'relative', width: '100%', paddingBottom: '100%' }}>
 <RotatingImage

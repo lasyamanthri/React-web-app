@@ -34,15 +34,15 @@ const ContactMe = () => {
    },
    {
      icon: <LocationOnIcon fontSize="large" color="primary" />,
-     label: 'Location',
-     info: 'Boston, USA',
+     label: 'Boston, USA',
+
    },
  ];
  const handleCardClick = (link) => {
    window.open(link, '_blank');
  };
  return (
-<div id="contact" align = 'center'>
+<div id="contact" align = 'center' xs='auto'>
 <Typography variant="h4" gutterBottom align='center'>
        Let's Get in Touch
 </Typography>

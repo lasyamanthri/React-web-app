@@ -9,19 +9,20 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 const sectionStyle = {
-  marginBottom: '50px', // Adjust the value to increase or decrease the space between sections
+  marginBottom: '50px', 
+  xs:'auto'// Adjust the value to increase or decrease the space between sections
  };
  const App = () => {
   return (
- <div>
+ <div xs = 'auto'>
   <Header></Header>
- <div style={sectionStyle}>
+ <div  style={sectionStyle} >
  <About />
  </div>
  <div style={sectionStyle}>
  <Profile />
  </div>
- <div style={sectionStyle}>
+ <div xs='auto' style={sectionStyle}>
  <Skills />
  </div>
  <div style={sectionStyle}>

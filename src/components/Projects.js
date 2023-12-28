@@ -17,7 +17,7 @@ const Projects = () => {
 
 
     return (
-        <Container sx={{ paddingTop: '80px', paddingBottom: '80px' }} id='projects'>
+        <Container sx={{ paddingTop: '80px', paddingBottom: '80px' }} id='projects' xs='auto'>
             <Typography variant="h4" gutterBottom align='Center'>
        My Projects
 </Typography>

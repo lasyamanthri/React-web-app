@@ -28,7 +28,7 @@ const Resume = () => {
 
   return (
 
-    <div id="resume">
+    <div id="resume" xs='auto'>
     
 
       <Typography variant="h4" gutterBottom align='center'>

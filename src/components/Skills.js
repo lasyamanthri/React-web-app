@@ -29,14 +29,14 @@ const Skills = () => {
  };
  const skillData = [
    { title: 'Data Science', description: 'Proficient in data analysis, modeling, and visualization.', icon: <QueryStatsIcon fontSize="large" /> },
-   { title: 'Data Engineering', description: 'Experience in building scalable data pipelines and databases.', icon: <DeveloperModeIcon fontSize="large" /> },
+   { title: 'Data Engineering', description: 'Experience in building data pipelines and databases.', icon: <DeveloperModeIcon fontSize="large" /> },
    { title: 'Machine Learning', description: 'Skilled in developing ML models for predictive analysis.', icon: <BuildIcon fontSize="large" /> },
    { title: 'Web Design', description: 'Familiar with frontend technologies and UI/UX principles.', icon: <CodeIcon fontSize="large" /> },
    { title: 'Poetry Writing', description: 'Passionate about creative writing and poetry.', icon: <CreateIcon fontSize="large" /> },
    // Add more skills as needed
  ];
  return (
-<div id="skills">
+<div id="skills" xs='auto'>
 <Typography variant="h4" gutterBottom align='Center'>
        What I can offer
 </Typography>

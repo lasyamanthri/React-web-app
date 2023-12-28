@@ -23,7 +23,7 @@ const location = 'Boston, USA'; // Replace with your location
 
  return (
 
-<Container sx={{ paddingTop: '80px', paddingBottom: '80px' }} id='profile'>
+<Container sx={{ paddingTop: '80px', paddingBottom: '80px' }} id='profile' xs='auto'>
 <Grid container spacing={3}>
 <Grid item xs={12} md={6}>
 <Typography variant="h4" gutterBottom>

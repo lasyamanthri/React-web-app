@@ -6,7 +6,7 @@ import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 import { Link as ScrollLink } from 'react-scroll';
 const Header = () => {
  return (
-<AppBar position="fixed" style={{ background: '#2E3B55' }}>
+<AppBar position="fixed" style={{ background: '#2E3B55' }} xs='auto'>
 <Toolbar>
 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
          Faiz Khwaja
